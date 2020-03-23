@@ -1,2 +1,2 @@
 # 3D-effect
-demo here: https://lvqa.github.io/3D-effect/
+demo here:  https://anlvq-1058.github.io/3d-effect-v2/

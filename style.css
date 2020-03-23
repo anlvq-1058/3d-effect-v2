@@ -83,17 +83,17 @@ body{
 .seven{
     background-image: url('img/7.jpg');
     background-size: cover;
-    
+    background-position-y: center;
 }
 .eight{
     background-image: url('img/8.jpg');
     background-size: cover;
-    
+    background-position-y: center;
 }
 .nine{
     background-image: url('img/9.jpg');
     background-size: cover;
-    
+    background-position-y: center;
 }
 .ten{
     background-image: url('img/10.jpg');
@@ -103,12 +103,12 @@ body{
 .eleven{
     background-image: url('img/11.jpg');
     background-size: cover;
-    
+    background-position-y: center;
 }
 .twelve{
     background-image: url('img/12.jpg');
     background-size: cover;
-    
+    background-position-y: center;
 }
 #shape.cube >.one{
     opacity: 0.2;

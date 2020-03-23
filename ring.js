@@ -32,9 +32,7 @@ function ringEfect(e){
     }
     
 
-    function newFunction() {
-        stage.style.color = '';
-    }
+
 }
 
 function hasClassName(inElement,inClassName){
@@ -53,8 +51,7 @@ function removerClassName(inElement,inClassName){
 
 function addClassName(inElement,inClassName) {
         if (!hasClassName(inElement,inClassName)) {
-            inElement.className = [inElement.className, inClassName].join(' ');
-            
+            inElement.className = [inElement.className, inClassName].join(' ');  
         }
         
 }

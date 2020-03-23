@@ -3,9 +3,13 @@ body{
     padding: 0;  
     background-color: black;
 }
+
 #container{
+    
     width: 100%;
+    height: 90vh;
     perspective: 1000px;
+    perspective-origin: 50% -135px;
     -webkit-perspective-origin: 50% -135px;
 }
 .stage{
@@ -69,7 +73,7 @@ body{
 .five{
     background-image: url('img/5.jpg');
     background-size: cover;
-    
+    background-position: center;
 }
 .six{
     background-image: url('img/6.jpg');
@@ -94,7 +98,7 @@ body{
 .ten{
     background-image: url('img/10.jpg');
     background-size: cover;
-    
+    background-position: right;
 }
 .eleven{
     background-image: url('img/11.jpg');
@@ -190,49 +194,61 @@ body{
 } 
 
 .ring > .one {
+    transform: translateZ(380px);
     -webkit-transform: translateZ(380px);
   }
 
   .ring > .two {
+    transform: rotateY(30deg) translateZ(380px);
     -webkit-transform: rotateY(30deg) translateZ(380px);
   }
 
   .ring > .three {
+    transform: rotateY(60deg) translateZ(380px);
     -webkit-transform: rotateY(60deg) translateZ(380px);
   }
 
   .ring > .four {
+    transform: rotateY(90deg) translateZ(380px);
     -webkit-transform: rotateY(90deg) translateZ(380px);
   }
 
   .ring > .five {
+    transform: rotateY(120deg) translateZ(380px);
     -webkit-transform: rotateY(120deg) translateZ(380px);
   }
 
   .ring > .six {
+    transform: rotateY(150deg) translateZ(380px);
     -webkit-transform: rotateY(150deg) translateZ(380px);
   }
 
   .ring > .seven {
+    transform: rotateY(180deg) translateZ(380px);
     -webkit-transform: rotateY(180deg) translateZ(380px);
   }
 
   .ring > .eight {
+    transform: rotateY(210deg) translateZ(380px);
     -webkit-transform: rotateY(210deg) translateZ(380px);
   }
 
   .ring > .nine {
+    transform: rotateY(-120deg) translateZ(380px);
     -webkit-transform: rotateY(-120deg) translateZ(380px);
   }
 
   .ring > .ten {
+    transform: rotateY(-90deg) translateZ(380px);
     -webkit-transform: rotateY(-90deg) translateZ(380px);
   }
 
   .ring > .eleven {
+    transform: rotateY(300deg) translateZ(380px);
     -webkit-transform: rotateY(300deg) translateZ(380px);
   }
 
   .ring > .twelve {
+    transform: rotateY(330deg) translateZ(380px);
     -webkit-transform: rotateY(330deg) translateZ(380px);
   }
